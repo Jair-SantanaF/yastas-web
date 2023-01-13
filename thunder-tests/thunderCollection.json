@@ -1,0 +1,129 @@
+[
+  {
+    "_id": "f89d2576-0633-4fe0-9510-19aa3c925d52",
+    "colName": "nupi",
+    "created": "2022-10-20T20:55:56.831Z",
+    "sortNum": 10000,
+    "folders": [
+      {
+        "_id": "1df6ce57-e2bf-4b69-afca-aef30bb6b784",
+        "name": "Retos",
+        "containerId": "",
+        "created": "2022-10-20T20:55:56.833Z",
+        "sortNum": 10000
+      },
+      {
+        "_id": "42005133-7f83-4f3f-8d96-e79714f3ef25",
+        "name": "Login",
+        "containerId": "",
+        "created": "2022-10-20T20:55:56.834Z",
+        "sortNum": 20000
+      },
+      {
+        "_id": "36200b61-6457-43e4-8b96-c7d52ed0e2d9",
+        "name": "Tutor",
+        "containerId": "1df6ce57-e2bf-4b69-afca-aef30bb6b784",
+        "created": "2022-10-20T20:57:41.329Z",
+        "sortNum": 30000
+      },
+      {
+        "_id": "a6b8abd5-0fe6-433d-abe3-8167cfb7fce1",
+        "name": "General",
+        "containerId": "1df6ce57-e2bf-4b69-afca-aef30bb6b784",
+        "created": "2022-10-20T22:40:23.811Z",
+        "sortNum": 15000
+      },
+      {
+        "_id": "57344dc5-7c66-4de3-9a93-947a463cb64c",
+        "name": "Becario",
+        "containerId": "1df6ce57-e2bf-4b69-afca-aef30bb6b784",
+        "created": "2022-10-20T22:53:34.047Z",
+        "sortNum": 50000
+      },
+      {
+        "_id": "a35d7d18-2650-40fe-917b-bc5480368ee2",
+        "name": "Incidencias",
+        "containerId": "",
+        "created": "2022-10-25T11:53:34.977Z",
+        "sortNum": 60000
+      },
+      {
+        "_id": "d687941e-8181-46f7-861e-94eadc7742ce",
+        "name": "General",
+        "containerId": "a35d7d18-2650-40fe-917b-bc5480368ee2",
+        "created": "2022-10-25T11:53:43.577Z",
+        "sortNum": 70000
+      },
+      {
+        "_id": "469941d7-650a-4d91-92c6-d15d260f28ed",
+        "name": "Tutor",
+        "containerId": "a35d7d18-2650-40fe-917b-bc5480368ee2",
+        "created": "2022-10-25T12:15:21.331Z",
+        "sortNum": 80000
+      },
+      {
+        "_id": "0c796e7e-e2c2-469f-aa9a-7b15b63ff6d6",
+        "name": "All",
+        "containerId": "ae5fac64-1f98-49d6-aa70-e77d8779d3db",
+        "created": "2022-10-28T17:10:57.642Z",
+        "sortNum": 10000
+      },
+      {
+        "_id": "6ce06a14-49b7-4bf3-a6e7-693ce5dbefff",
+        "name": "ByBecario",
+        "containerId": "ae5fac64-1f98-49d6-aa70-e77d8779d3db",
+        "created": "2022-10-28T17:11:07.616Z",
+        "sortNum": 20000
+      },
+      {
+        "_id": "ae5fac64-1f98-49d6-aa70-e77d8779d3db",
+        "name": "GetRetos",
+        "containerId": "36200b61-6457-43e4-8b96-c7d52ed0e2d9",
+        "created": "2022-10-28T17:11:45.829Z",
+        "sortNum": 120000
+      },
+      {
+        "_id": "7cb2fd0e-da92-41d1-a5d8-659737f3f710",
+        "name": "Chat",
+        "containerId": "",
+        "created": "2022-11-11T21:13:19.497Z",
+        "sortNum": 130000
+      },
+      {
+        "_id": "ae951433-83f6-4b87-ba04-def2de52a772",
+        "name": "TerminosCondiciones",
+        "containerId": "",
+        "created": "2022-11-11T23:20:35.516Z",
+        "sortNum": 140000
+      },
+      {
+        "_id": "3e56cece-bf2d-4fdd-9148-2f7f1fae5209",
+        "name": "AvisoPrivacidad",
+        "containerId": "",
+        "created": "2022-11-11T23:20:42.128Z",
+        "sortNum": 150000
+      },
+      {
+        "_id": "bf6d9afa-af66-413a-96e6-839654793ffd",
+        "name": "User",
+        "containerId": "",
+        "created": "2022-11-14T20:56:53.312Z",
+        "sortNum": 160000
+      },
+      {
+        "_id": "ae78a1e3-838d-4c26-b6a6-847214e18517",
+        "name": "Capacitaciones",
+        "containerId": "",
+        "created": "2022-11-16T16:15:21.332Z",
+        "sortNum": 170000
+      },
+      {
+        "_id": "fd8329a0-c735-4fb2-ab1b-ac9caef76036",
+        "name": "Questions",
+        "containerId": "",
+        "created": "2022-11-16T16:16:02.105Z",
+        "sortNum": 180000
+      }
+    ]
+  }
+]

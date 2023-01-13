@@ -1,0 +1,134 @@
+[
+  {
+    "_id": "ed8b3d0e-d3bf-4d6c-ab50-6628c654c65f",
+    "name": "local_nupi",
+    "default": false,
+    "sortNum": 10000,
+    "created": "2022-10-26T17:04:50.305Z",
+    "modified": "2022-11-22T17:40:08.472Z",
+    "data": [
+      {
+        "name": "host",
+        "value": "http://nuup.test"
+      },
+      {
+        "name": "token",
+        "value": "WLHqWdSNBtglUrglViKZqLawmzntm3UJiVMYFZV2GEioFf5ybrxKrIuCfa0MwYgZ2Ah4ohdiAWKqckjWohTgOTLvpSdud4rE3XD2PPDX5r06AKDunVNncgERVLcFWYRHazKjPvq4Thqc3ZZZzNCkXr8KvviRzyTeObioHasYFuMKmHsv4CN4PTstKtpPJ3hAdjmEx5v1ugT6zRTT02CzzgevP2XXAXGSRyNHeLSfu43mgtx94VYUyre05z1ZHav6u5lS0tzb0ZXJewGjBqaKCRKfGfSxXDAJdP"
+      },
+      {
+        "name": "business_id",
+        "value": "83"
+      }
+    ]
+  },
+  {
+    "_id": "b04c52c5-2d85-4ad8-b654-80a0fe453374",
+    "name": "local_bimbo",
+    "default": false,
+    "sortNum": 20000,
+    "created": "2022-10-26T17:05:38.950Z",
+    "modified": "2022-11-17T15:37:53.224Z",
+    "data": [
+      {
+        "name": "host",
+        "value": "http://bimbo_nupi.test"
+      },
+      {
+        "name": "token",
+        "value": "Ia1gAoLDWVOWEqNKXl76atejwYONIAwxftqnCqREttHxzbzGrH4VKDOb7yY3juLl3J9T23NEtpDxGuWPgHgytpoLXyuE2H5DZT9oElypZimq37N4yvQDbX5PZQqywbL0lhxlecQWxZL8sGiiNoJUmQQonOQueVodl7ktu0JeEhSj4zV3qFO4NTdNHG34gjdVmNgieKxLrf8FjAz66NA8alqgqJ9WfiUb2tLmyISgdPHxmAuXY8oEmSccLjFmPOpYNrM0lHyHPZf9XafqvDegEnIi3lH9t4ysEQ"
+      },
+      {
+        "name": "business_id",
+        "value": "83"
+      }
+    ]
+  },
+  {
+    "_id": "9f90194e-712d-4d04-ada7-0984e5c3dff3",
+    "name": "qa_nupi",
+    "default": false,
+    "sortNum": 30000,
+    "created": "2022-10-26T17:06:08.776Z",
+    "modified": "2022-11-14T20:20:19.473Z",
+    "data": [
+      {
+        "name": "host",
+        "value": "http://kreativeco.com/qa-nuup"
+      },
+      {
+        "name": "token",
+        "value": ""
+      },
+      {
+        "name": "business_id",
+        "value": "83"
+      }
+    ]
+  },
+  {
+    "_id": "67577916-253c-4f4c-a12f-aaa337820851",
+    "name": "qa_bimbo",
+    "default": true,
+    "sortNum": 40000,
+    "created": "2022-10-26T17:06:13.714Z",
+    "modified": "2022-11-18T19:48:11.364Z",
+    "data": [
+      {
+        "name": "host",
+        "value": "http://kreativeco.com/qa-bimbo-nuup"
+      },
+      {
+        "name": "token",
+        "value": "VZW49MWLJQl7QH4BdeCr2yQlegfEtZXmn15kvJX9PYHKyyK4OIogIx86I3uN8IEglURqbaQLhpCwmM1kXcewYU68O5RPvnJHrj2tIbBrh229jI1FIbYifSRQc0ZTA7YvGl0rq1LISWLHH1DBlqOLah4nvzlJsyA9r6Behqk6mVlt6zTTYAB9FE5bMuF3IQ83mKplrgioUj62sgE4huO6ktGMLIMcDImcRtj8UYp4swVbSfqN5xcbaMdhI5Cr9HSemHEpvtOhEbzcPfgYisX8CB5pi7tikbZe00"
+      },
+      {
+        "name": "business_id",
+        "value": "83"
+      }
+    ]
+  },
+  {
+    "_id": "da5b127e-05b4-418b-b9b3-639b86d8a60c",
+    "name": "muni",
+    "default": false,
+    "sortNum": 50000,
+    "created": "2022-10-31T19:50:27.575Z",
+    "modified": "2022-11-14T20:20:34.475Z",
+    "data": [
+      {
+        "name": "host",
+        "value": "https://kreativeco.com/muni"
+      },
+      {
+        "name": "token",
+        "value": "FUc7XXbNxN4qg7NrjWU9bCHh6PhROKpvAkg4KinKSyVsqrno4l38vrB2K69WvwlWJMFBtRxrrORua2t8Flq5z3wWDOO0gvrButQwaybni2QawLeGhJN0oK7vloxVKE3BN3mhf108HJqOlbOjr1xBKvPwWt7YolmKlSxQR5l0YODBDOe2cqhIN1kMIdUma5xheXiYrQjnilH4W2Pt9lxBEjR8HSzWfkRTQAkSMHuM1IkK5HYpheIbhkUtU9gzOqlXYXrbjemGgilJ4jw7c9SN9XrCeXIY7VowP1"
+      },
+      {
+        "name": "business_id",
+        "value": "83"
+      }
+    ]
+  },
+  {
+    "_id": "9439d555-e456-48ee-a9c9-776d45f5747e",
+    "name": "local_muni",
+    "default": false,
+    "sortNum": 25000,
+    "created": "2022-11-07T06:10:45.261Z",
+    "modified": "2022-11-14T20:20:10.507Z",
+    "data": [
+      {
+        "name": "host",
+        "value": "http://muni.test"
+      },
+      {
+        "name": "token",
+        "value": "DpTgOFfa418fQFuTz5w65WDiAfFk6xxR4QdO7X1aXbmBr0KNxla4MOzEhKJA9HuRrQe2K50VzSj1LuYXgbDsLoRfTIX7nAyUAl9Z8BuziV4W5EHV5ECKlqpNL5fM7Mjrefqsss5KW3MNHVPA6DEcFceeOji5pSwzPCB5LScYNzu9W8cRJiNkt30SmwLpSzbX967fC94KWCFwoEM5PfiEUESXGeY3HXVAjvaYigxFFwdwa1PxBJUpleRg2WyywN9YElbDXxMo0ee0OgaoKNMn3REhYtnz7e1A2J"
+      },
+      {
+        "name": "business_id",
+        "value": "83"
+      }
+    ]
+  }
+]

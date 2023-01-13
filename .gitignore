@@ -1,0 +1,6 @@
+.DS_Store
+*.pdf
+/nuup.zip
+application/logs/
+uploads/
+application/libraries/tcpdf.zip

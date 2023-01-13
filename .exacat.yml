@@ -1,0 +1,7 @@
+project      = 'nuup_backend';
+project_name = 'nuup, the audit'
+ 
+project_reports[] = 'Text';
+project_reports[] = 'Owasp';
+ 
+project_ruleset[] = 'Security';

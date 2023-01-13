@@ -1,0 +1,1521 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 29 oct. 2020, 13:02:32
+    Author     : jcarrasco
+*/
+:root{
+    --rosa_nuup_dark:#B70064;
+    --rosa_nuup_ligth:#E5007E;
+    --rojo_nuup:#C50022;
+}
+.rosa_nuup_dark{
+    color: var(--rosa_nuup_dark);
+}
+.rosa_nuup_dark_back{
+    background-color: var(--rosa_nuup_dark);
+}
+.rosa_nuup_ligth{
+    color: var(--rosa_nuup_ligth);
+}
+.rosa_nuup_ligth_back{
+    background-color: var(--rosa_nuup_ligth);
+}
+.rojo_nuup{
+    color: var(--rojo_nuup);
+}
+.rojo_nuup_back{
+    background-color: var(--rojo_nuup);
+}
+.rojo_nuup_border{
+    border: 1px solid var(--rojo_nuup);
+}
+.fondo_blanco{
+    background: white;
+}
+.text-float-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.display_none{
+    display: none;
+}
+@media (min-width: 768px) {
+    .navbar-brand.abs
+    {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+}
+
+html, body{
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.bg-img{
+    background-image: url('../img/fondo.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.logo{
+    width: 60%;
+    margin: 25% 0;
+}
+
+.forms{
+    margin: 0% 0% 10% 0%;
+}
+
+-img-overlay{
+    top:1;
+}
+
+/*Prueba notificacion*/
+.notifications-dropdown .dropdown-menu {
+	padding-top: 0;
+	padding-bottom: 0;
+    border-radius: 9px;
+    overflow: hidden;
+}
+
+.notifications-dropdown .dropdown-menu-header {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    background: #E5007E;
+    color: #FFF;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.notifications-dropdown .dropdown-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-width: 350px;
+    white-space: inherit;
+	border-bottom: 1px solid rgba(0,0,0,.15);
+}
+
+.notifications-dropdown .dropdown-item:last-child {
+	border-bottom: none;
+}
+
+.notifications-dropdown .dropdown-item small {
+    color: #6f6f6f;
+}
+
+.notifications-dropdown a {
+	color: #333;
+	text-decoration: none;
+	font-size: 14px;
+    display: block;
+    width: 100%;
+    padding-top: 2px;
+    padding-left: 8px;
+}
+
+.notifications-dropdown img {
+    border-radius: 100px;
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+}
+
+.dropdown-item .new-notif{
+    background: var(--rosa_nuup_ligth);
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    display: none;
+}
+
+.dropdown-item .new-notif.active{
+    display: block !important;
+}
+
+.notifications-dropdown-footer {
+	text-align: center;
+    font-size: 13px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background: #e2e2e2;
+    text-transform: uppercase;
+}
+.notification-element{
+    color: white;
+    border: 1px solid var(--rosa_nuup_dark);
+    background: var(--rosa_nuup_dark);
+    border-radius: .5rem;
+    padding: .5rem;
+    margin-top: .5rem;
+}
+.notification-element .new-notif{
+    background: var(--rosa_nuup_ligth);
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    display: none;
+}
+.notification-element .new-notif.active{
+    display: block !important;
+}
+.rojo_error{
+    color: #FF898D;
+}
+.error_ {
+    border: 1px solid #FF898D;
+}
+.success_ {
+    border: 1px solid #2ad767;
+    background: transparent;
+}
+/*Prueba notificacion*/
+
+/* Prueba Calendario */
+html body .card {
+  border-radius: 15px;
+  overflow: hidden
+}
+
+html body .card-header {
+  background: #28a745;
+  color: #fff;
+}
+
+html body .card-header .prevMonth {
+  cursor: pointer;
+}
+
+html body .card-header .nextMonth {
+  cursor: pointer;
+}
+
+html body .card-body {
+  background: white;;
+}
+
+html body .card-body .days span {
+  background: #34ce57;
+  color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  cursor: pointer;
+}
+
+html body .card-body .days span:hover {
+  background: #5dd879;
+}
+
+html body .card-body .dates span {
+  background: white;
+  color: #000;
+  border-radius: 50%;
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  cursor: pointer
+}
+
+html body .card-body .dates span.active,
+html body .card-body .dates span:hover {
+  background: #ffeef0;
+  color: #000
+}
+
+html body .card-body .dates span.ntMonth {
+  color: #938e8e;
+  background: #ffd8de
+}
+
+html body .card-body .dates span.ntMonth:hover {
+  background: #ffeef0;
+  color: #000
+}
+
+html body .card#event .card-header .close {
+  color: #fff;
+  opacity: 1
+}
+
+html body .card#event .card-body .events-today {
+  height: 210px;
+  overflow-x: hidden
+}
+
+html body .card#event .card-body .events-input .data-invalid {
+  border-color: red
+}
+
+html body .card#event .card-body .events-input .error {
+  font-size: 12px;
+  color: red;
+  position: absolute;
+  top: 100%
+}
+
+/* ---------------------------------------------------
+    Estilos para preguntas
+----------------------------------------------------- */
+/*Opcion multiple respuesta multiple*/
+.contenedor_pregunta[type_id="1"] .respuesta{
+    color: #B3B3B3;
+    cursor: pointer;
+    border: 1px solid #B3B3B3;
+    border-radius: .5rem;
+}
+.contenedor_pregunta[type_id="1"] .respuesta:hover{
+    background: rgba(168, 168, 168, 0.4);
+    color: white;
+}
+.contenedor_pregunta[type_id="1"] .descripcion_pregunta{
+    color: black;/*#64AC2F;*/
+    font-weight: bold;
+}
+.contenedor_pregunta[type_id="1"] .numero_pregunta {
+    background: #64AC2F;/*#64AC2F;*/;
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+.contenedor_pregunta[type_id="1"] .respuesta_usuario{
+    background: rgb(128,128,128);/*#64AC2F;*/
+    color: white;
+}
+.contenedor_pregunta[type_id="1"] .respuesta_usuario:hover{
+    background: rgb(128,128,128);
+}
+
+/*Opcion multiple respuesta unica*/
+.contenedor_pregunta[type_id="2"] .respuesta{
+    color: #B3B3B3;
+    cursor: pointer;
+    border: 1px solid #B3B3B3;
+    border-radius: .5rem;
+}
+.contenedor_pregunta[type_id="2"] .respuesta:hover{
+    background: rgba(168, 168, 168, 0.4);
+    color: white;
+}
+.contenedor_pregunta[type_id="2"] .descripcion_pregunta{
+    color: black;/*#64AC2F;*/
+    font-weight: bold;
+}
+.contenedor_pregunta[type_id="2"] .numero_pregunta {
+    background: #64AC2F;/*#64AC2F;*/;
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+.contenedor_pregunta[type_id="2"] .respuesta_usuario{
+    background: rgb(128,128,128);/*#64AC2F;*/
+    color: white;
+}
+.contenedor_pregunta[type_id="2"] .respuesta_usuario:hover{
+    background: rgb(128,128,128);
+}
+
+/*Opcion multiple respuesta multiple[imagenes]*/
+.contenedor_pregunta[type_id="3"] .respuesta{
+    border: 5px solid white;/*background: #B3B3B3;*/
+    color: white;
+    cursor: pointer;
+}
+.contenedor_pregunta[type_id="3"] .respuesta:hover{
+    border: 5px solid rgba(168, 168, 168, 0.4);;/*background: rgba(168, 168, 168, 0.4);*/
+    color: white;
+}
+.contenedor_pregunta[type_id="3"] .descripcion_pregunta{
+    color: black;/*#64AC2F;*/
+    font-weight: bold;
+}
+.contenedor_pregunta[type_id="3"] .numero_pregunta {
+    background: #64AC2F;/*#64AC2F;*/;
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+.contenedor_pregunta[type_id="3"] .respuesta_usuario{
+    border: 5px solid rgb(128,128,128);/*background: rgb(128,128,128);*/
+}
+.contenedor_pregunta[type_id="3"] .respuesta_usuario:hover{
+    border: 5px solid rgb(128,128,128);/*background: rgb(128,128,128);*/
+}
+
+
+/*Opcion multiple respuesta unica[imagenes]*/
+.contenedor_pregunta[type_id="5"] .respuesta{
+    border: 5px solid white;/*background: #B3B3B3;*/
+    color: white;
+    cursor: pointer;
+}
+.contenedor_pregunta[type_id="5"] .respuesta:hover{
+    border: 5px solid rgba(168, 168, 168, 0.4);;/*background: rgba(168, 168, 168, 0.4);*/
+    color: white;
+}
+.contenedor_pregunta[type_id="5"] .descripcion_pregunta{
+    color: black;/*#64AC2F;*/
+    font-weight: bold;
+}
+.contenedor_pregunta[type_id="5"] .numero_pregunta {
+    background: #64AC2F;/*#64AC2F;*/;
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+.contenedor_pregunta[type_id="5"] .respuesta_usuario{
+    border: 5px solid rgb(128,128,128);/*background: rgb(128,128,128);*/
+}
+.contenedor_pregunta[type_id="5"] .respuesta_usuario:hover{
+    border: 5px solid rgb(128,128,128);/*background: rgb(128,128,128);*/
+}
+
+/*CARAS*/
+.contenedor_pregunta[type_id="8"] .respuesta{
+    background-size: cover;
+    color: white;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+}
+.contenedor_pregunta[type_id="8"] .respuesta[answer_id="1"]{
+    background-image: url("../img/cara_1_2.png");
+}
+.contenedor_pregunta[type_id="8"] .respuesta[answer_id="2"]{
+    background-image: url("../img/cara_2_2.png");
+}
+.contenedor_pregunta[type_id="8"] .respuesta[answer_id="3"]{
+    background-image: url("../img/cara_3_2.png");
+}
+.contenedor_pregunta[type_id="8"] .respuesta[answer_id="4"]{
+    background-image: url("../img/cara_4_2.png");
+}
+.contenedor_pregunta[type_id="8"] .respuesta[answer_id="5"]{
+    background-image: url("../img/cara_5_2.png");
+}
+
+.contenedor_pregunta[type_id="8"] .respuesta[answer_id="1"]:hover{
+    background-image: url("../img/cara_1_1.png");
+}
+.contenedor_pregunta[type_id="8"] .respuesta[answer_id="2"]:hover{
+    background-image: url("../img/cara_2_1.png");
+}
+.contenedor_pregunta[type_id="8"] .respuesta[answer_id="3"]:hover{
+    background-image: url("../img/cara_3_1.png");
+}
+.contenedor_pregunta[type_id="8"] .respuesta[answer_id="4"]:hover{
+    background-image: url("../img/cara_4_1.png");
+}
+.contenedor_pregunta[type_id="8"] .respuesta[answer_id="5"]:hover{
+    background-image: url("../img/cara_5_1.png");
+}
+
+.contenedor_pregunta[type_id="8"] .descripcion_pregunta{
+    color: black;/*#64AC2F;*/
+    font-weight: bold;
+}
+.contenedor_pregunta[type_id="8"] .numero_pregunta {
+    background: #64AC2F;/*#64AC2F;*/;
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+.contenedor_pregunta[type_id="8"] .respuesta_usuario[answer_id="1"]{
+    background-image: url("../img/cara_1_1.png");
+}
+.contenedor_pregunta[type_id="8"] .respuesta_usuario[answer_id="2"]{
+    background-image: url("../img/cara_2_1.png");
+}
+.contenedor_pregunta[type_id="8"] .respuesta_usuario[answer_id="3"]{
+    background-image: url("../img/cara_3_1.png");
+}
+.contenedor_pregunta[type_id="8"] .respuesta_usuario[answer_id="4"]{
+    background-image: url("../img/cara_4_1.png");
+}
+.contenedor_pregunta[type_id="8"] .respuesta_usuario[answer_id="5"]{
+    background-image: url("../img/cara_5_1.png");
+}
+
+.contenedor_pregunta[type_id="8"] .respuesta_usuario:hover{
+    /*background: rgb(128,128,128);*/
+}
+
+/*Abierta*/
+.contenedor_pregunta[type_id="9"] .descripcion_pregunta{
+    color: black;/*#64AC2F;*/
+    font-weight: bold;
+}
+.contenedor_pregunta[type_id="9"] .numero_pregunta {
+    background: #64AC2F;/*#64AC2F;*/;
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+
+/*Estrellas*/
+/*
+.contenedor_pregunta[type_id="8"] .respuesta{
+    background-image: url("../img/icn_estrella_encuesta_off.png");
+    background-size: cover;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+}
+.contenedor_pregunta[type_id="8"] .hover{
+    background-image: url("../img/icn_estrella_encuesta_on.png");
+}
+.contenedor_pregunta[type_id="8"] .descripcion_pregunta{
+    color: black;
+    font-weight: bold;
+}
+.contenedor_pregunta[type_id="8"] .numero_pregunta {
+    background: #64AC2F;
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+.contenedor_pregunta[type_id="8"] .respuesta_usuario{
+    background-image: url("../img/icn_estrella_encuesta_on.png");
+}
+.contenedor_pregunta[type_id="8"] .respuesta_usuario.hover{
+    background-image: url("../img/icn_estrella_encuesta_on_hover.png");
+}
+.contenedor_pregunta[type_id="8"] .respuesta_usuario:hover{
+}
+*/
+
+/*Abierta*/
+.contenedor_pregunta[type_id="13"] .descripcion_pregunta{
+    color: black;/*#64AC2F;*/
+    font-weight: bold;
+}
+.contenedor_pregunta[type_id="13"] .numero_pregunta {
+    background: #64AC2F;/*#64AC2F;*/;
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+.contenedor_pregunta[type_id="13"] .respuesta_usuario{
+    border-radius: .5rem;
+}
+/*like numeros*/
+.contenedor_pregunta[type_id="14"] .respuesta{
+    background: #B3B3B3;
+    color: white;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 2.5rem;
+}
+.contenedor_pregunta[type_id="14"] .respuesta:hover{
+    background: rgba(168, 168, 168, 0.4);
+    color: white;
+}
+.contenedor_pregunta[type_id="14"] .descripcion_pregunta{
+    color: black;/*#64AC2F;*/
+    font-weight: bold;
+}
+.contenedor_pregunta[type_id="14"] .numero_pregunta {
+    background: #64AC2F;/*#64AC2F;*/
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+.contenedor_pregunta[type_id="14"] .respuesta_usuario{
+    background: rgb(128,128,128);/*#64AC2F;*/
+}
+.contenedor_pregunta[type_id="14"] .respuesta_usuario:hover{
+    background: rgb(128,128,128);
+}
+.border-shadow{
+    box-shadow: 0 0 15px 0 rgba(85,85,85,0.8);
+}
+/* Prueba Calendario */
+html body .card {
+    border-radius: 15px;
+    overflow: hidden
+}
+
+html body .card-header {
+    background: #28a745;
+    color: #fff
+}
+
+html body .card-header .prevMonth {
+    cursor: pointer
+}
+
+html body .card-header .nextMonth {
+    cursor: pointer
+}
+
+html body .card-body {
+  /*background: var(--rosa_nuup_dark);*/
+}
+
+html body .card-body .days span {
+  background: var(--rosa_nuup_dark);
+  color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  cursor: pointer
+}
+
+html body .card-body .days span:hover {
+  background: var(--rosa_nuup_dark);
+}
+
+html body .card-body .dates span {
+  background: var(--rosa_nuup_dark);
+  color: #000;
+  border-radius: 50%;
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  cursor: pointer
+}
+
+html body .card-body .dates span.active,
+html body .card-body .dates span:hover {
+  background: var(--rosa_nuup_dark);
+  color: #000
+}
+
+html body .card-body .dates span.ntMonth {
+  color: #938e8e;
+  background: var(--rosa_nuup_dark);
+}
+
+html body .card-body .dates span.ntMonth:hover {
+  background: var(--rosa_nuup_dark);
+  color: #000
+}
+
+html body .card#event .card-header .close {
+    color: #fff;
+    opacity: 1
+}
+
+html body .card#event .card-body .events-today {
+    height: 210px;
+    overflow-x: hidden
+}
+
+html body .card#event .card-body .events-input .data-invalid {
+  border-color: var(--rosa_nuup_dark);
+}
+
+html body .card#event .card-body .events-input .error {
+  font-size: 12px;
+  color: var(--rosa_nuup_dark);
+  position: absolute;
+  top: 100%
+}
+/* ---------------------------------------------------
+    Estilos para preguntas
+----------------------------------------------------- */
+/*Opcion multiple respuesta multiple*/
+.contenedor_pregunta[type_id="1"] .respuesta{
+    color: #B3B3B3;
+    cursor: pointer;
+    border: 1px solid #B3B3B3;
+    border-radius: .5rem;
+}
+.contenedor_pregunta[type_id="1"] .respuesta:hover{
+    background: rgba(168, 168, 168, 0.4);
+    color: white;
+}
+.contenedor_pregunta[type_id="1"] .descripcion_pregunta{
+    color: black;/*#64AC2F;*/
+    font-weight: bold;
+}
+.contenedor_pregunta[type_id="1"] .numero_pregunta {
+    background: #64AC2F;/*#64AC2F;*/;
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+.contenedor_pregunta[type_id="1"] .respuesta_usuario{
+    background: rgb(128,128,128);/*#64AC2F;*/
+    color: white;
+}
+.contenedor_pregunta[type_id="1"] .respuesta_usuario:hover{
+    background: rgb(128,128,128);
+}
+
+/*Opcion multiple respuesta unica*/
+.contenedor_pregunta[type_id="2"] .respuesta{
+    color: #B3B3B3;
+    cursor: pointer;
+    border: 1px solid #B3B3B3;
+    border-radius: .5rem;
+}
+.contenedor_pregunta[type_id="2"] .respuesta:hover{
+    background: rgba(168, 168, 168, 0.4);
+    color: white;
+}
+.contenedor_pregunta[type_id="2"] .descripcion_pregunta{
+    color: black;/*#64AC2F;*/
+    font-weight: bold;
+}
+.contenedor_pregunta[type_id="2"] .numero_pregunta {
+    background: #64AC2F;/*#64AC2F;*/;
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+.contenedor_pregunta[type_id="2"] .respuesta_usuario{
+    background: rgb(128,128,128);/*#64AC2F;*/
+    color: white;
+}
+.contenedor_pregunta[type_id="2"] .respuesta_usuario:hover{
+    background: rgb(128,128,128);
+}
+
+/*Opcion multiple respuesta multiple[imagenes]*/
+.contenedor_pregunta[type_id="3"] .respuesta{
+    border: 5px solid white;/*background: #B3B3B3;*/
+    color: white;
+    cursor: pointer;
+}
+.contenedor_pregunta[type_id="3"] .respuesta:hover{
+    border: 5px solid rgba(168, 168, 168, 0.4);;/*background: rgba(168, 168, 168, 0.4);*/
+    color: white;
+}
+.contenedor_pregunta[type_id="3"] .descripcion_pregunta{
+    color: black;/*#64AC2F;*/
+    font-weight: bold;
+}
+.contenedor_pregunta[type_id="3"] .numero_pregunta {
+    background: #64AC2F;/*#64AC2F;*/;
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+.contenedor_pregunta[type_id="3"] .respuesta_usuario{
+    border: 5px solid rgb(128,128,128);/*background: rgb(128,128,128);*/
+}
+.contenedor_pregunta[type_id="3"] .respuesta_usuario:hover{
+    border: 5px solid rgb(128,128,128);/*background: rgb(128,128,128);*/
+}
+
+
+/*Opcion multiple respuesta unica[imagenes]*/
+.contenedor_pregunta[type_id="5"] .respuesta{
+    border: 5px solid white;/*background: #B3B3B3;*/
+    color: white;
+    cursor: pointer;
+}
+.contenedor_pregunta[type_id="5"] .respuesta:hover{
+    border: 5px solid rgba(168, 168, 168, 0.4);;/*background: rgba(168, 168, 168, 0.4);*/
+    color: white;
+}
+.contenedor_pregunta[type_id="5"] .descripcion_pregunta{
+    color: black;/*#64AC2F;*/
+    font-weight: bold;
+}
+.contenedor_pregunta[type_id="5"] .numero_pregunta {
+    background: #64AC2F;/*#64AC2F;*/;
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+.contenedor_pregunta[type_id="5"] .respuesta_usuario{
+    border: 5px solid rgb(128,128,128);/*background: rgb(128,128,128);*/
+}
+.contenedor_pregunta[type_id="5"] .respuesta_usuario:hover{
+    border: 5px solid rgb(128,128,128);/*background: rgb(128,128,128);*/
+}
+
+/*CARAS*/
+.contenedor_pregunta[type_id="8"] .respuesta{
+    background-size: cover;
+    color: white;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+}
+.contenedor_pregunta[type_id="8"] .respuesta[answer_id="1"]{
+    background-image: url("../img/cara_1_2.png");
+}
+.contenedor_pregunta[type_id="8"] .respuesta[answer_id="2"]{
+    background-image: url("../img/cara_2_2.png");
+}
+.contenedor_pregunta[type_id="8"] .respuesta[answer_id="3"]{
+    background-image: url("../img/cara_3_2.png");
+}
+.contenedor_pregunta[type_id="8"] .respuesta[answer_id="4"]{
+    background-image: url("../img/cara_4_2.png");
+}
+.contenedor_pregunta[type_id="8"] .respuesta[answer_id="5"]{
+    background-image: url("../img/cara_5_2.png");
+}
+
+.contenedor_pregunta[type_id="8"] .respuesta[answer_id="1"]:hover{
+    background-image: url("../img/cara_1_1.png");
+}
+.contenedor_pregunta[type_id="8"] .respuesta[answer_id="2"]:hover{
+    background-image: url("../img/cara_2_1.png");
+}
+.contenedor_pregunta[type_id="8"] .respuesta[answer_id="3"]:hover{
+    background-image: url("../img/cara_3_1.png");
+}
+.contenedor_pregunta[type_id="8"] .respuesta[answer_id="4"]:hover{
+    background-image: url("../img/cara_4_1.png");
+}
+.contenedor_pregunta[type_id="8"] .respuesta[answer_id="5"]:hover{
+    background-image: url("../img/cara_5_1.png");
+}
+
+.contenedor_pregunta[type_id="8"] .descripcion_pregunta{
+    color: black;/*#64AC2F;*/
+    font-weight: bold;
+}
+.contenedor_pregunta[type_id="8"] .numero_pregunta {
+    background: #64AC2F;/*#64AC2F;*/;
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+.contenedor_pregunta[type_id="8"] .respuesta_usuario[answer_id="1"]{
+    background-image: url("../img/cara_1_1.png");
+}
+.contenedor_pregunta[type_id="8"] .respuesta_usuario[answer_id="2"]{
+    background-image: url("../img/cara_2_1.png");
+}
+.contenedor_pregunta[type_id="8"] .respuesta_usuario[answer_id="3"]{
+    background-image: url("../img/cara_3_1.png");
+}
+.contenedor_pregunta[type_id="8"] .respuesta_usuario[answer_id="4"]{
+    background-image: url("../img/cara_4_1.png");
+}
+.contenedor_pregunta[type_id="8"] .respuesta_usuario[answer_id="5"]{
+    background-image: url("../img/cara_5_1.png");
+}
+
+.contenedor_pregunta[type_id="8"] .respuesta_usuario:hover{
+    /*background: rgb(128,128,128);*/
+}
+
+/*Abierta*/
+.contenedor_pregunta[type_id="9"] .descripcion_pregunta{
+    color: black;/*#64AC2F;*/
+    font-weight: bold;
+}
+.contenedor_pregunta[type_id="9"] .numero_pregunta {
+    background: #64AC2F;/*#64AC2F;*/;
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+
+/*Estrellas*/
+/*
+.contenedor_pregunta[type_id="8"] .respuesta{
+    background-image: url("../img/icn_estrella_encuesta_off.png");
+    background-size: cover;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+}
+.contenedor_pregunta[type_id="8"] .hover{
+    background-image: url("../img/icn_estrella_encuesta_on.png");
+}
+.contenedor_pregunta[type_id="8"] .descripcion_pregunta{
+    color: black;
+    font-weight: bold;
+}
+.contenedor_pregunta[type_id="8"] .numero_pregunta {
+    background: #64AC2F;
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+.contenedor_pregunta[type_id="8"] .respuesta_usuario{
+    background-image: url("../img/icn_estrella_encuesta_on.png");
+}
+.contenedor_pregunta[type_id="8"] .respuesta_usuario.hover{
+    background-image: url("../img/icn_estrella_encuesta_on_hover.png");
+}
+.contenedor_pregunta[type_id="8"] .respuesta_usuario:hover{
+}
+*/
+
+/*Abierta*/
+.contenedor_pregunta[type_id="13"] .descripcion_pregunta{
+    color: black;/*#64AC2F;*/
+    font-weight: bold;
+}
+.contenedor_pregunta[type_id="13"] .numero_pregunta {
+    background: #64AC2F;/*#64AC2F;*/;
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+.contenedor_pregunta[type_id="13"] .respuesta_usuario{
+    border-radius: .5rem;
+}
+/*like numeros*/
+.contenedor_pregunta[type_id="14"] .respuesta{
+    background: #B3B3B3;
+    color: white;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 2.5rem;
+}
+.contenedor_pregunta[type_id="14"] .respuesta:hover{
+    background: rgba(168, 168, 168, 0.4);
+    color: white;
+}
+.contenedor_pregunta[type_id="14"] .descripcion_pregunta{
+    color: black;/*#64AC2F;*/
+    font-weight: bold;
+}
+.contenedor_pregunta[type_id="14"] .numero_pregunta {
+    background: #64AC2F;/*#64AC2F;*/
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+.contenedor_pregunta[type_id="14"] .respuesta_usuario{
+    background: rgb(128,128,128);/*#64AC2F;*/
+}
+.contenedor_pregunta[type_id="14"] .respuesta_usuario:hover{
+    background: rgb(128,128,128);
+}
+.border-shadow{
+    box-shadow: 0 0 15px 0 rgba(85,85,85,0.8);
+}
+.border-button{
+    border-bottom: 2px solid black;
+}
+.border-top-{
+    border-top: 2px solid black;
+}
+.fc-next-button,.fc-prev-button,.fc-today-button,.fc-dayGridMonth-button{
+    background-color: var(--rosa_nuup_dark) !important;
+    border: 1px solid var(--rosa_nuup_dark) !important;
+}
+.border_table_events{
+    border-right: 1px solid black;
+    width: 180px;
+    border-top: none !important;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+.embed-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media(max-width: 767px) {
+    html body .card-body .days span {
+        height: 38px;
+        width: 38px;
+        line-height: 38px;
+        font-size: .8rem
+    }
+    html body .card-body .dates span {
+        height: 38px;
+        width: 38px;
+        line-height: 38px;
+        font-size: .8rem
+    }
+    html body .card#event .card-body .events-today {
+        height: 188px
+    }
+}
+
+/* Prueba estilos ruleta */
+/* Sets the background image for the wheel */
+.the_wheel
+{
+    background-image: url(/assets/img/Agro-Cortes-82.png);
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+/* Do some css reset on selected elements */
+h1, p
+{
+    margin: 0;
+}
+
+div.power_controls
+{
+    margin-right:70px;
+}
+
+div.html5_logo
+{
+    margin-left:70px;
+}
+
+/* Styles for the power selection controls */
+table.power
+{
+    background-color: #cccccc;
+    cursor: pointer;
+    border:0px solid #333333;
+}
+
+table.power th
+{
+    background-color: white;
+    cursor: default;
+}
+
+td.pw1
+{
+    background-color: #6fe8f0;
+}
+
+td.pw2
+{
+    background-color: #86ef6f;
+}
+
+td.pw3
+{
+    background-color: #ef6f6f;
+}
+
+/* Style applied to the spin button once a power has been selected */
+.clickable
+{
+    cursor: pointer;
+}
+
+/* Other misc styles */
+.margin_bottom
+{
+    margin-bottom: 0px;
+}
+/* Prueba estilos ruleta */
+
+.quest{
+    border: 12px solid #013b98;
+}
+
+/*INPUT BLANCO*/
+.input-white{
+    height: calc(2rem + 2px);/*height: calc(1.5rem + 2px); */
+    padding: .175rem .75rem;
+    font-size: 1.3rem;/*font-size: .8rem;*/
+    background-color: transparent;/*#fff;*/
+    border-radius: 1px;
+    border-bottom: 1px solid var(--rosa_nuup_dark);
+    color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.input-white:focus {
+    color: black;
+    background-color: transparent;/*#fff;*/
+    border-color: white;/*#80bdff;*/
+    box-shadow: 0 0 0 0.2rem var(--rosa_nuup_ligth);/*0 0 0 0.2rem rgba(0, 123, 255, 0.25);*/
+}
+
+.input-white::-webkit-input-placeholder {
+    color: lightgray;
+    opacity: 1;
+}
+
+.input-white::-moz-placeholder {
+    color: lightgray;
+    opacity: 1;
+}
+
+.input-white:-ms-input-placeholder {
+    color: lightgray;
+    opacity: 1;
+}
+
+.input-white::-ms-input-placeholder {
+    color: lightgray;
+    opacity: 1;
+}
+
+.input-white::placeholder {
+    color: lightgray;
+    opacity: 1;
+}
+
+select.input-white:focus::-ms-value {
+    background-color: transparent;/*#fff;*/
+}
+
+input.input-white:-webkit-autofill,
+input.input-white:-webkit-autofill:hover,
+input.input-white:-webkit-autofill:focus,
+textarea.input-white:-webkit-autofill,
+textarea.input-white:-webkit-autofill:hover,
+textarea.input-white:-webkit-autofill:focus,
+select.input-white:-webkit-autofill,
+select.input-white:-webkit-autofill:hover,
+select.input-white:-webkit-autofill:focus {
+    /*border: 1px solid green;*/
+    -webkit-text-fill-color: var(--rosa_nuup_dark);/*green;*/
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset;/*0 0 0px 1000px #000 inset;*/
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+select.input-white:not([size]):not([multiple]) {
+    height: calc(1.5rem + 2px);
+}
+
+/*INPUT VERDE*/
+.input-green{
+    height: calc(1.5rem + 2px);
+    padding: .175rem .75rem;
+    font-size: .8rem;
+    background-color: transparent;/*#fff;*/
+    border-radius: 1px;
+    border-bottom: 1px solid white;
+    color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.input-green:focus {
+    color: white;
+    background-color: transparent;/*#fff;*/
+    border-color: white;/*#80bdff;*/
+    box-shadow: 0 0 0 0.2rem var(--rosa_nuup_ligth);/*0 0 0 0.2rem rgba(0, 123, 255, 0.25);*/
+}
+
+.input-green::-webkit-input-placeholder {
+    color: lightgray;
+    opacity: 1;
+}
+
+.input-green::-moz-placeholder {
+    color: lightgray;
+    opacity: 1;
+}
+
+.input-green:-ms-input-placeholder {
+    color: lightgray;
+    opacity: 1;
+}
+
+.input-green::-ms-input-placeholder {
+    color: lightgray;
+    opacity: 1;
+}
+
+.input-green::placeholder {
+    color: lightgray;
+    opacity: 1;
+}
+
+select.input-green:focus::-ms-value {
+    background-color: transparent;/*#fff;*/
+}
+
+input.input-green:-webkit-autofill,
+input.input-green:-webkit-autofill:hover,
+input.input-green:-webkit-autofill:focus,
+textarea.input-green:-webkit-autofill,
+textarea.input-green:-webkit-autofill:hover,
+textarea.input-green:-webkit-autofill:focus,
+select.input-green:-webkit-autofill,
+select.input-green:-webkit-autofill:hover,
+select.input-green:-webkit-autofill:focus {
+    /*border: 1px solid green;*/
+    -webkit-text-fill-color: var(--rosa_nuup_dark);/*green;*/
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset;/*0 0 0px 1000px #000 inset;*/
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+select.input-green:not([size]):not([multiple]) {
+    height: calc(1.5rem + 2px);
+}
+
+/**
+ * Fix show imgen de perfil
+ */
+.profile_photo{
+  width: 350px;
+  height: 350px;
+}
+.portrait-crop
+{
+    overflow: hidden;
+}
+
+.portrait-crop:hover
+{
+    overflow: unset;
+}
+
+/**
+ * Estilos nuevos
+ */
+input[type="email"] {
+  background: black;
+  border:1px;
+  color: white;
+  border-radius: 0;
+}
+input[type="email"]:focus{
+    background: black;
+    color: white;
+    border-radius: 0;
+}
+
+input[type="password"] {
+  background: black;
+  color: white;
+  border-radius: 0;
+}
+input[type="password"]:focus{
+    background: black;
+    color: white;
+    border-radius: 0;
+}
+
+input[type="text"] {
+  background: black;
+  color: white;
+  border-radius: 0;
+}
+input[type="text"]:focus{
+    background: black;
+    color: white;
+    border-radius: 0;
+}
+
+input[type="time"] {
+  background: black;
+  color: white;
+  border-radius: 0;
+}
+input[type="time"]:focus{
+    background: black;
+    color: white;
+    border-radius: 0;
+}
+
+input[type="date"] {
+  background: black;
+  color: white;
+  border-radius: 0;
+}
+input[type="date"]:focus{
+    background: black;
+    color: white;
+    border-radius: 0;
+}
+
+textarea#note {
+  background: black;
+  color: white;
+  border-radius: 0;
+}
+textarea#note:focus{
+    background: black;
+    color: white;
+    border-radius: 0;
+}
+
+textarea#message {
+  background: black;
+  color: white;
+  border-radius: 0;
+}
+textarea#message:focus{
+    background: black;
+    color: white;
+    border-radius: 0;
+}
+
+.button-wrap {
+  position: relative;
+}
+
+.button {
+  padding: 5px 20px;
+  cursor: pointer;
+  border-radius: 0;
+  background-color: var(--rosa_nuup_ligth);
+  color: white;
+  border:none;
+}
+
+.button:hover {
+  padding: 5px 20px;
+  cursor: pointer;
+  border-radius: 0;
+  background-color: var(--rosa_nuup_dark);
+  color: white;
+}
+
+.invert_button-wrap {
+  position: relative;
+}
+
+.invert_button {
+  padding: 5px 20px;
+  cursor: pointer;
+  border-radius: 0;
+  background-color: white;
+  color: var(--rosa_nuup_ligth);
+  border:none;
+}
+
+.invert_button:hover {
+  padding: 5px 20px;
+  cursor: pointer;
+  border-radius: 0;
+  background-color: var(--rosa_nuup_dark);
+  color: white;
+}
+
+.back_negro_text_blanco{
+  background-color: black;
+  color: white;
+}
+
+.back_rosa_text_blanco{
+  background-color: var(--rosa_nuup_ligth);
+  color: white;
+}
+
+/**
+ * Carrousel home
+ */
+ 
+
+/**
+ * Over info image
+ */
+
+.ch-item {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  cursor: default;
+  box-shadow: 
+    inset 0 0 0 16px rgba(255,255,255,0.6),
+    0 1px 2px rgba(0,0,0,0.1);
+  transition: all 0.4s ease-in-out;
+}
+
+.ch-img-1 { 
+  background-image: url(https://picsum.photos/300/500);
+}
+
+.ch-img-2 { 
+  background-image: url(https://picsum.photos/50/50);
+}
+
+.ch-img-3 { 
+  background-image: url(https://picsum.photos/300/500);
+}
+
+.ch-info {
+  position: absolute;
+  background: rgba(0,0,0, 0.8);
+  width: inherit;
+  height: inherit;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+  transform: scale(0);
+}
+
+.ch-info h3 {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin: 0 30px;
+  padding: 45px 0 0 0;
+  height: 140px;
+  text-shadow: 
+    0 0 1px #fff, 
+    0 1px 2px rgba(0,0,0,0.3);
+}
+
+.ch-info p {
+  color: #fff;
+  padding: 10px 5px;
+  font-style: italic;
+  margin: 0 30px;
+  font-size: 12px;
+  border-top: 1px solid rgba(255,255,255,0.5);
+  opacity: 0;
+  transition: all 1s ease-in-out 0.4s;
+}
+
+.ch-info p a {
+  display: block;
+  color: rgba(255,255,255,0.7);
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 9px;
+  letter-spacing: 1px;
+  padding-top: 4px;  
+}
+
+.ch-info p a:hover {
+  color: rgba(255,242,34, 0.8);
+}
+
+.ch-item:hover {
+  box-shadow: 
+    inset 0 0 0 1px rgba(255,255,255,0.1),
+    0 1px 2px rgba(0,0,0,0.1);
+}
+
+.ch-item:hover .ch-info {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.ch-item:hover .ch-info p {
+  opacity: 1;
+}
+/**
+ * Over info image
+ */
+
+.btn-red {
+    /*height: calc(1.5rem + 2px);*/
+    /*padding: .175rem .75rem;*/
+    /*font-size: .8rem;*/
+    background-color: var(--rojo_nuup);
+    color: white;
+}
+
+.btn-red:hover {
+    color: var(--rosa_nuup_dark);
+}
+
+.btn-red:focus, .btn-red.focus {
+    box-shadow: 0 0 0 0.2rem #c14459; /*0 0 0 0.2rem rgba(0, 123, 255, 0.25);*/
+}
+
+
+/**/
+.contenedor_quiz .respuesta{
+    color: #B3B3B3;
+    cursor: pointer;
+    border: 1px solid #B3B3B3;
+    border-radius: .5rem;
+}
+.contenedor_quiz .respuesta:hover{
+    background: rgba(168, 168, 168, 0.4);
+    color: white;
+}
+.contenedor_quiz .descripcion_pregunta{
+    color: black;/*#64AC2F;*/
+    font-weight: bold;
+}
+.contenedor_quiz .numero_pregunta {
+    background: #64AC2F;/*#64AC2F;*/;
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+.contenedor_quiz .respuesta_usuario{
+    background: rgb(128,128,128);/*#64AC2F;*/
+    color: white;
+}
+.contenedor_quiz .respuesta_usuario:hover{
+    background: rgb(128,128,128);
+}
+
+/**/
+.contenedor_quiz_products .paso{
+    width: 100px;
+    height: 100px;
+    color: #B3B3B3;
+    cursor: pointer;
+    border: 1px solid #B3B3B3;
+    border-radius: .5rem;
+}
+.contenedor_quiz_products .paso_resaltado,
+.contenedor_quiz_products .paso_seleccionado{
+    background: rgb(128,128,128);/*#64AC2F;*/
+    color: white;
+}
+
+.contenedor_quiz_products .option_description{
+    color: #B3B3B3;
+    cursor: pointer;
+    border: 1px solid #B3B3B3;
+    border-radius: .5rem;
+}
+.contenedor_quiz_products .respuesta:hover{
+    background: rgba(168, 168, 168, 0.4);
+    color: white;
+}
+.contenedor_quiz_products .respuesta{
+    color: #B3B3B3;
+    cursor: pointer;
+    border: 1px solid #B3B3B3;
+    border-radius: .5rem;
+}
+.contenedor_quiz_products .respuesta_usuario{
+    background: rgb(128,128,128);/*#64AC2F;*/
+    color: white;
+}
+.contenedor_quiz_products .respuesta_usuario:hover{
+    background: rgb(128,128,128);
+}

@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"X-Generator: Poedit 2.0.6\n"
+
+# mensaje de bienvenida a la aplicación
+msgid "bienvenido a mi app"
+msgstr "Bienvenue à ma demande"
+
+# texto con una variable dinámica
+msgid "saludo usuario %s"
+msgstr "Bienvenue dans notre application %s, j'espère que vous aimez"
+
+# texto con más de una variable dinámica
+msgid "hola %s hoy es %s"
+msgstr "Bonjour %s sont aujourd'hui %s"
+
+# pluralización
+msgid "producto tienda"
+msgid_plural "productos tiendas"
+msgstr[0] "Actuellement %s article"
+msgstr[1] "Actuellement %s articles"
